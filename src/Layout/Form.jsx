@@ -15,9 +15,9 @@ export default function App() {
       <h1 className="mb-5 font-extrabold tracking-tight ">
         Tell us more about the receiver
       </h1>
-      <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-1">
+      <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-1 p-2">
         <label
-          class="form-check-label inline-block text-gray-800 "
+          class="form-check-label inline-block text-gray-800 mb-2"
           htmlFor="receiver"
         >
           Who is the receiver?
@@ -58,7 +58,7 @@ export default function App() {
           <option value=" Boss"> Boss</option>
         </select>
         <label
-          class="form-check-label inline-block text-gray-800"
+          class="form-check-label inline-block text-gray-800 mb-2"
           htmlFor="occasion"
         >
           What is the occasion?
@@ -89,7 +89,7 @@ export default function App() {
           <option value=" Graduation"> Graduation</option>
         </select>
         <label
-          class="form-check-label inline-block text-gray-800"
+          class="form-check-label inline-block text-gray-800 mb-2"
           htmlFor="age"
         >
           How old is the receiver?
@@ -116,7 +116,7 @@ export default function App() {
           focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
         />
         <label
-          class="form-check-label inline-block text-gray-800"
+          class="form-check-label inline-block text-gray-800 mb-2"
           htmlFor="occasion"
         >
           Tell us more about the receiver! Like hobbies, if he/she got an animal
